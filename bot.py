@@ -9,7 +9,7 @@ import os
 
 #Bot Setup
 BOT_PREFIX = ("?", "!")
-TOKEN = NTU0Mzc2NDMxOTA4NTUyNzI0.XLdk-g.hH9KDrQUd3JwKf3EqG9UtjfNhD4
+TOKEN = os.environ["DISCORD_TOKEN"]
 
 client = Bot(command_prefix=BOT_PREFIX)
 
